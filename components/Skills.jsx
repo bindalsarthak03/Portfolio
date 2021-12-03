@@ -1,4 +1,4 @@
-import next from "next"
+
 import styles from "../styles/Skills.module.css"
 import SkillCards from '../components/SkillCards.jsx'
 import Ldata from "./Ldata.jsx"
@@ -14,8 +14,9 @@ const Skills = () => {
                         <p>languages</p>
                         <div className={styles.langcard}>
                             {Ldata.map((val) => {
+                                
                                 return (
-                                    <SkillCards imgsrc={val.imgsrc}
+                                    <SkillCards key={val.id} imgsrc={val.imgsrc}
                                         title={val.title}
                                     />
                                 );
