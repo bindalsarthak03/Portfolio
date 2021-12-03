@@ -9,12 +9,12 @@ const Experience = () => {
             <div className={styles.langcard}>
                             {Edata.map((val) => {
                                 return (
-                                    <div key = {val.id}>
-                                    <ExpCard imgsrc={val.imgsrc}
+                                    
+                                    <ExpCard key = {val.id} imgsrc={val.imgsrc}
                                         title={val.title}
                                         desc={val.desc}
                                     />
-                                    </div>
+                                    
                                 );
                             })}
                         </div>

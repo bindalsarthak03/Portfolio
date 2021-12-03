@@ -16,11 +16,11 @@ const Skills = () => {
                             {Ldata.map((val) => {
                                 
                                 return (
-                                    <div key = {val.id}>
-                                    <SkillCards  imgsrc={val.imgsrc}
+                                    
+                                    <SkillCards key = {val.id} imgsrc={val.imgsrc}
                                         title={val.title}
                                     />
-                                    </div>
+                            
                                 );
                             })}
                         </div>
@@ -30,7 +30,7 @@ const Skills = () => {
                         <div className={styles.langcard}>
                             {Fdata.map((val) => {
                                 return (
-                                    <SkillCards imgsrc={val.imgsrc}
+                                    <SkillCards key = {val.id} imgsrc={val.imgsrc}
                                         title={val.title}
                                     />
                                 );
@@ -42,7 +42,7 @@ const Skills = () => {
                         <div className={styles.langcard}>
                             {Tdata.map((val) => {
                                 return (
-                                    <SkillCards imgsrc={val.imgsrc}
+                                    <SkillCards key = {val.id} imgsrc={val.imgsrc}
                                         title={val.title}
                                     />
                                 );
