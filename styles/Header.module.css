@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.h1{
+    color: var(--coltxt2);
+    padding-top: 5%;
+    margin-top: 5%;
+    padding-left: 20%;
+    padding-right: 22%;
+    font-size: 35px;
+    text-align: center;
+}
+
+.h1 > p{
+    text-align: center;
+    font-size: 25px;
+}
+
+@media only screen and (max-width:1096px) {
+    .h1{
+        font-size: 30px;
+    }
+    .h1>p{
+        font-size: 23px;
+    }
+    
+}
+
+
+@media only screen and (max-width:932px){
+ .h1{
+     font-size: 25px;
+ }   
+ .h1>p{
+     font-size: 19px;
+ }
+}

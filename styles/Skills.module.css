@@ -1,0 +1,53 @@
+.container{
+    margin-top: 5%;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom:5% ;
+
+}
+
+.heading{
+    color: var(--coltxt2);
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.lang > p{
+    font-size: 21px;
+    color: var(--coltxt1);
+    text-decoration: underline;
+    font-weight: 100;
+
+}
+
+.langcard{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+@media only screen and (max-width:1096px) {
+    .heading{
+        font-size: 35px;
+    }
+    .lang>p{
+       font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width:932px){
+ .heading{
+     font-size: 32px;
+ }   
+ .lang>p{
+     font-size: 18px;
+ }
+}

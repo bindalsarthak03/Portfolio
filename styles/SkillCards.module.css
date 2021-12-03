@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding: 2%;
+}
+
+.container>span{
+    margin-top: 10%;
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 50%;
+    
+} 
+
+@media only screen and (max-width:1096px) {
+ .img{
+    position: relative;
+  height: 80px;
+  width: 60px;   
+ }   
+}
+ 
+@media only screen and (max-width:932px){
+}
+
+
+
+
+

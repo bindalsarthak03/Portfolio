@@ -1,16 +1,31 @@
 html,
 body {
+  scroll-behavior: smooth;
+  background-color: var(--colbg);
+  height: 100%;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: monospace;
 }
 
-a {
-  color: inherit;
+:root{
+  --colbg: #1A1A1B;
+  --colbg2: #333F44;
+  --coltxt1: #37AA9C;
+  --coltxt2: #94F3E4;
+  
+}
+
+a{
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+
+}
+p{
+  margin-top: 1%;
+  
 }
 
-* {
-  box-sizing: border-box;
-}
+

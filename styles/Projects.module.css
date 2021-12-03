@@ -1,0 +1,55 @@
+.container{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.heading{
+    color: var(--coltxt2);
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.ProjectCard{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.category{
+    color: var(--coltxt1);
+    font-size: 21px;
+    text-decoration: underline;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.OprojectCard{
+    width: 100%;
+    transform: translateX(-20%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    
+}
+
+
+@media only screen and (max-width:1096px) {
+ .heading{
+     font-size: 40px;
+ } 
+ .category{
+     font-size: 18px;
+ }  
+}
