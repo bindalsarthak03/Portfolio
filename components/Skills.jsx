@@ -16,9 +16,11 @@ const Skills = () => {
                             {Ldata.map((val) => {
                                 
                                 return (
-                                    <SkillCards key={val.id} imgsrc={val.imgsrc}
+                                    <div key = {val.id}>
+                                    <SkillCards  imgsrc={val.imgsrc}
                                         title={val.title}
                                     />
+                                    </div>
                                 );
                             })}
                         </div>
