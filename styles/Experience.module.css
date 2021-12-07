@@ -32,6 +32,10 @@
    }
 
 @media only screen and (max-width:777px) {
+   .container{
+    padding-left: 5%;
+    padding-right: 5%;
+   }
     .heading{
         font-size: 30px;
     }

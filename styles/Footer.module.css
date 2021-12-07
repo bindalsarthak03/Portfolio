@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 2%;
 
@@ -62,13 +62,25 @@
         font-size: 16px;
     }
 }
-@media only screen and (max-width:560px) {
-    
+@media only screen and (max-width:555px) {
+    .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
     .desc {
-        font-size: 10px;
+        text-align: center;
+        font-size: 12px;
     }
 
     .socicon {
-        font-size: 15px;
+        width: 90%;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        font-size: 20px;
     }
 }
