@@ -11,22 +11,22 @@ const Footer = () => {
                 <FaGithub/>
                 </a>
             </Link>     
-            <Link href="https://github.com/bindalsarthak03">
+            <Link href="https://www.linkedin.com/in/sarthak-bindal-747a6b202/">
                 <a target="_blank">
                 <FaLinkedin/>
                 </a>
             </Link> 
-            <Link href="https://github.com/bindalsarthak03">
+            <Link href="https://twitter.com/SarthakBindal03">
                 <a target="_blank">
                 <FaTwitter/>
                 </a>
             </Link> 
-            <Link href="https://github.com/bindalsarthak03">
+            <Link href="https://www.instagram.com/sarthak_0306/">
                 <a target="_blank">
                 <FaInstagram/>
                 </a>
             </Link> 
-            <Link href="https://github.com/bindalsarthak03">
+            <Link href="https://www.facebook.com/sarthak.bindal.77/">
                 <a target="_blank">
                 <FaFacebook/>
                 </a>
