@@ -7,15 +7,19 @@ function ProjectCard(props) {
 
         <div className={styles.container}>
             <Link href={props.url}>
-                <a  target="_blank">
+                <a target="_blank">
                     <div className={styles.img}>
 
-                    <Image className={styles.Image} src={props.imgsrc} height={200} width={350} layout={'fixed'} />
+                        <Image className={styles.Image} src={props.imgsrc} height={200} width={350} layout={'fixed'} />
                     </div>
                 </a>
             </Link>
             <div className={styles.about}>
-                <span className={styles.card_category}>{props.title}</span>
+                <Link href={props.url}> 
+                    <a target="_blank">
+                        <span className={styles.card_category}>{props.title}</span>
+                    </a>
+                </Link>
                 <p className={styles.desc}>{props.desc}</p>
             </div>
         </div>
