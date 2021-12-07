@@ -53,3 +53,12 @@
      font-size: 18px;
  }  
 }
+
+@media only screen and (max-width: 962px) {
+    .heading{
+        font-size: 32px;
+    }
+    .category{
+        font-size: 15px;
+    }
+}

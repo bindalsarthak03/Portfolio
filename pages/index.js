@@ -28,21 +28,21 @@ export default function Home() {
 
         <meta
           name="description"
-          content="Hello I am Sarthak Bindal, Sophomore from IIIT Kottayam, who likes to code. Currently a python based full stack Web developer who also has a hand in JavaScript based stacks"
+          content="Hello I am Sarthak Bindal, Sophomore from IIIT Kottayam, who likes to code."
         />
         <meta
           name="keywords"
-          content="Web Developer,Python,Django,JavaScript,Sarthak Bindal"
+          content="Web Developer,Python,Django,JavaScript,C++,ReactJs,NextJs,Sarthak Bindal"
         />
         <meta name="author" content="Sarthak Bindal" />
         <meta property="og:title" content="Sarthak Bindal" />
         <meta
           property="og:description"
-          content="Hello I am Sarthak Bindal, Sophomore from IIIT Kottayam, who likes to code. Currently a python based full stack Web developer who also has a hand in JavaScript based stacks"
+          content="Hello I am Sarthak Bindal, Sophomore from IIIT Kottayam, who likes to code. "
         />
         <meta
           property="og:url"
-          content="https://www.shashankkumarsrivastava.tech/"
+          content="https://www..tech/"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -56,7 +56,7 @@ export default function Home() {
           itemProp="description"
           content="Hello I am Sarthak Bindal, Sophomore from IIIT Kottayam, who likes to code. Currently a python based full stack Web developer who also has a hand in JavaScript based stacks"
         />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="public\favicon.ico" />
         </Head>
     <Nav/>
     <Header/>

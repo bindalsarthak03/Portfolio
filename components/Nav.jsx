@@ -7,6 +7,7 @@ const Nav = () => {
     return (
         <div className={styles.navbar}>
             <p className={styles.name}> SARTHAK BINDAL</p>
+            
             <ul>
                 <li>
                 <Link href ='#' target = "_blank">
@@ -35,6 +36,8 @@ const Nav = () => {
                 </Link></li>
             </ul>
         </div>
+
+        
     )
 }
 

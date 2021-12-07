@@ -30,7 +30,6 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
 }
 
 @media only screen and (max-width:1096px) {
@@ -51,3 +50,17 @@
      font-size: 18px;
  }
 }
+
+
+@media only screen and (max-width:777px){
+    .langcard{
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .heading{
+        font-size: 30px;
+    }   
+    .lang>p{
+        font-size: 18px;
+    }
+   }

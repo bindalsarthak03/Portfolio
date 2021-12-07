@@ -62,3 +62,24 @@
      font-size: 16px;
  }
 }
+
+@media only screen and (max-width:777px) {
+    .container{
+        margin-top: 5%;
+    }
+    .card_category{
+        font-size: 18px;
+    } 
+    .stack{
+        font-size: 18px;
+   
+    } 
+    .about {
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+    
+    }
+    .desc{
+        font-size: 15px;
+    }
+   }

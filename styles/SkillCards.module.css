@@ -16,16 +16,15 @@
     
 } 
 
-@media only screen and (max-width:1096px) {
- .img{
-    position: relative;
-  height: 80px;
-  width: 60px;   
- }   
-}
+
  
-@media only screen and (max-width:932px){
-}
+
+@media only screen and (max-width:777px) {
+    .container>span{
+        font-size: 18px;
+    } 
+   }
+
 
 
 

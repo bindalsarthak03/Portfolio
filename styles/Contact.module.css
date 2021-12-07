@@ -47,3 +47,31 @@
         font-size: 20px;
     }
 }
+
+
+@media only screen and (max-width:962px) {
+    .heading{
+        font-size: 35px;
+    }
+    .mail{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:777px) {
+    .heading{
+        font-size: 30px;
+    }
+    .mail{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:555px){
+    .heading{
+        font-size: 20px;
+    }
+    .mail{
+        font-size: 15px;
+    }
+}
