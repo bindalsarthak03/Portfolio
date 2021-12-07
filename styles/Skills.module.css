@@ -1,4 +1,4 @@
-.container{
+.container {
     margin-top: 5%;
 
     display: flex;
@@ -6,18 +6,18 @@
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 5%;
-    padding-bottom:5% ;
+    padding-bottom: 5%;
 
 }
 
-.heading{
+.heading {
     color: var(--coltxt2);
     text-transform: uppercase;
     font-size: 48px;
     font-weight: 900;
 }
 
-.lang > p{
+.lang>p {
     font-size: 21px;
     color: var(--coltxt1);
     text-decoration: underline;
@@ -25,7 +25,7 @@
 
 }
 
-.langcard{
+.langcard {
     height: auto;
     width: 100%;
     display: flex;
@@ -33,40 +33,46 @@
 }
 
 @media only screen and (max-width:1096px) {
-    .heading{
+    .heading {
         font-size: 35px;
     }
-    .lang>p{
-       font-size: 18px;
+
+    .lang>p {
+        font-size: 18px;
     }
 }
 
 
-@media only screen and (max-width:932px){
- .heading{
-     font-size: 32px;
- }   
- .lang>p{
-     font-size: 18px;
- }
+@media only screen and (max-width:932px) {
+    .heading {
+        font-size: 32px;
+    }
+
+    .lang>p {
+        font-size: 18px;
+    }
 }
 
 
-@media only screen and (max-width:777px){
-    
-    .container{
-        
-    padding-left: 5%;
-    padding-right: 5%;
+@media only screen and (max-width:777px) {
+
+    .container {
+
+        overflow-x: hidden;
+        padding-left: 5%;
+        padding-right: 5%;
     }
-    .langcard{
+
+    .langcard {
         flex-wrap: wrap;
         align-items: flex-start;
     }
-    .heading{
+
+    .heading {
         font-size: 30px;
-    }   
-    .lang>p{
+    }
+
+    .lang>p {
         font-size: 18px;
     }
-   }
+}

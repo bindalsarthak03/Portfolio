@@ -76,7 +76,8 @@
     }
 
     .socicon {
-        width: 90%;
+        overflow-x:hidden;
+        width: 80%;
         align-items: center;
         display: flex;
         justify-content: space-around;

@@ -45,7 +45,8 @@
 
 @media only screen and (max-width:777px) {
     .h1 {
-
+        
+        overflow-x:hidden;
         padding-left: 5%;
         padding-right: 5%;
         font-size: 25px;
