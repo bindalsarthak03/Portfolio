@@ -2,7 +2,6 @@ html,
 body {
   scroll-behavior: smooth;
   background-color: #020227;
-  height: 100%;
   padding: 0;
   margin: 0;
   font-family: monospace;
